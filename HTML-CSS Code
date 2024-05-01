@@ -1,0 +1,122 @@
+<style type="text/css">
+    .flex-container3 { display: none;}
+    .flex-container2 {
+		display: flex;
+		flex-wrap: wrap;
+        margin: 0 auto;
+
+	
+	}
+	.flex-container2 > div {
+		flex-basis: 14.667%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        margin-right: -8px;
+        margin-left: -8px;
+        
+	}
+    
+    img {
+        width: auto;
+    }
+    @media only screen and (max-width: 1299px) and (min-width: 992px) {
+        .flex-container2 img { width: 200px !important; }
+    }
+     @media only screen and (max-width: 1187px) and (min-width: 946px) {
+        .flex-container2 img { width: 150px !important; }
+    }    
+
+	@media only screen and (max-width: 945px) {
+         .flex-container2 { display: none;}
+		.flex-container3 {
+            display: flex;
+		flex-wrap: wrap;
+			width: auto;
+			margin: 0 auto;
+		}
+		.flex-container3 > div {
+			flex-basis: 33%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+            text-align: left;
+
+		
+		}
+	
+	}
+
+	@media only screen and (max-width: 480px) {
+		.flex-container3 {
+			width: 100%;
+		}
+		.flex-container3 > div {
+			min-height: 96px;
+		}
+    }
+</style>
+<div class="flex-container2">
+	<div>
+        	<a href="" alt="">
+		 <img src=""  alt="">
+		</a>
+    
+	</div>
+
+ <div>
+        	<a href="" alt="">
+		 <img src=""  alt="">
+		</a>
+    
+	</div>
+	<div>
+        	<a href="" alt="">
+		 <img src=""  alt="">
+		</a>
+    
+	</div>
+<div>
+        	<a href="" alt="">
+		 <img src=""  alt="">
+		</a>
+    
+	</div>
+
+   <div>
+        	<a href="" alt="">
+		 <img src=""  alt="">
+		</a>
+    
+	</div>
+    
+ <div>
+        	<a href="" alt="">
+		 <img src=""  alt="">
+		</a>
+    
+	</div>
+</div>
+
+<!-- mobile grid -->
+<div class="flex-container3">
+	<div>
+        	<a href="" alt="">
+		 <img src=""  alt="">
+		</a>
+    
+	</div>
+
+     <div>
+        	<a href="" alt="">
+		 <img src=""  alt="">
+		</a>
+    
+	</div>
+	<div>
+        	<a href="" alt="">
+		 <img src=""  alt="">
+		</a>
+    
+	</div>
+
+</div>
